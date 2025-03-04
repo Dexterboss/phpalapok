@@ -10,7 +10,7 @@ for ($i=0; $i <= $indexMax; $i++)
     $tombKi[$i]=$tombKi[$i].$tombKi[$i];
 }
     
-print($tombBe);
+print_r($tombBe);
 echo "<br>";
 print_r($tombKi);
 echo "<br>";
